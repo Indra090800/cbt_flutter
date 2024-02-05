@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primary),
         useMaterial3: true,
-        scaffoldBackgroundColor: AppColors.light,
+        scaffoldBackgroundColor: const Color.fromARGB(255, 77, 30, 185),
       ),
       home: const OnboardingPage(),
     );
